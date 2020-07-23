@@ -1,9 +1,8 @@
 # requ-js
 
-Requ-js is a simple library for handle client side http requests. It is a wrapper over axios, but with a human touch.
+Requ-js is a simple library for handling client side http requests. It is a wrapper over axios, but with a bit more human touch.
 It works as builder, building the endpoint along you go.
-At the moment requ-js comes with very few functions.
-
+At the moment requ-js's api is very limited.
 
 ## we start building our api with
 
