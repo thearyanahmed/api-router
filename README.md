@@ -7,7 +7,7 @@ At the moment requ-js comes with very few functions.
 
 ## we start building our api with
 
-```
+```node
 this.request() // sort of like init
 ```
 
