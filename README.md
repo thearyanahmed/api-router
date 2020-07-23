@@ -13,7 +13,7 @@ this.request() // sort of like init
 
 ## adding our destination
 
-```
+```node
 // .to(routeName, [routeParams])
 
 this.request().to('articles',[authorID,articleID]) // imagine our route /articles/{authorid}/articles/{articlesID}
@@ -21,7 +21,7 @@ this.request().to('articles',[authorID,articleID]) // imagine our route /article
 
 ## adding extra data we might want to send
 
-```
+```node
 let data = {
   secret_key: 'super-secret-mon-key'
 }
@@ -38,7 +38,7 @@ this.request()
 ## adding additional headers
 Keep building and add on with ".headers()"
 
-```
+```node
 ...
 .headers({ 'Accept': 'application/json'})
 ```
@@ -46,7 +46,7 @@ Keep building and add on with ".headers()"
 ###
 the , catch and finally or success, error, endsWith! All of them gives us a callback with the response data, and more!
 
-```
+```node
 ...
  .success((res) => {
       console.log('from-outer-layer',res)
@@ -62,7 +62,7 @@ the , catch and finally or success, error, endsWith! All of them gives us a call
 
 ## we have built our request step by step, now to simply send it throug.
 
-```
+```node
 this.request()
   .to('test',[1,'some-slug'])
   .with(data)
@@ -79,4 +79,4 @@ this.request()
   })
   .send()
 ```
-** incomplete & more features to come**
+**incomplete & more features to come**
