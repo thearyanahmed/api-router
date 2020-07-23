@@ -79,4 +79,13 @@ this.request()
   })
   .send()
 ```
+## don't want to send the authentication token?
+
+just add anywhere before send()
+
+```node
+.withoutToken()
+```
+
+
 **incomplete & more features to come**
