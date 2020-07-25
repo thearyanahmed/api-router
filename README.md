@@ -2,7 +2,7 @@
 
 api-router is a simple library for handling client-side HTTP requests. It is a wrapper over Axios, but with a bit more human touch.
 It works as a builder, building the endpoint along you go.
-At the moment requ-js's API is very limited.
+At the moment api-router's API is very limited.
 
 ## we start building our API with
 
