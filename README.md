@@ -1,6 +1,6 @@
-# requ-js
+# api-router
 
-Requ-js is a simple library for handling client-side HTTP requests. It is a wrapper over Axios, but with a bit more human touch.
+api-router is a simple library for handling client-side HTTP requests. It is a wrapper over Axios, but with a bit more human touch.
 It works as a builder, building the endpoint along you go.
 At the moment requ-js's API is very limited.
 
